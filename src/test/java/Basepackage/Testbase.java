@@ -13,6 +13,7 @@ public class Testbase {
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://www.homedepot.com/");
 		driver.manage().window().maximize();
+		driver.navigate().refresh();
 		driver.quit();
 	}
 	
