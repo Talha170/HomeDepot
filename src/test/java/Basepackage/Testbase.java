@@ -17,6 +17,7 @@ public class Testbase {
 		driver.get("https://www.homedepot.com/");
 		driver.manage().window().maximize();
 		driver.navigate().refresh();
+		//reresh the page
 	}
 	@AfterMethod
 	public void close() {
